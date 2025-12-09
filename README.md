@@ -10,7 +10,7 @@ Create a GitHub repository via the API using a Personal Access Token (PAT), then
 ## Install to your CLI toolchain
 - From this checkout: `cargo install --path .`
 - Can also install directly from GitHub: 
-  - SSH: `cargo install --git git@github.com:tucker-weed/gh-repo-create-cli.git`  
+  - SSH: `cargo install --git ssh://git@github.com/tucker-weed/gh-repo-create-cli.git`  
   - HTTPS: `cargo install --git https://github.com/tucker-weed/gh-repo-create-cli.git`
 The binary will be placed in `~/.cargo/bin` (ensure that directory is on your `PATH`).
 
