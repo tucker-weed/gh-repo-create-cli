@@ -23,13 +23,13 @@ gh-repo-create <repo-name> [--private] [--org ORG_NAME]
 ### Examples
 ```bash
 # Public repo in your user account
-gh-repo-create prompt-graph-tools
+gh-repo-create-cli prompt-graph-tools
 
 # Private repo
-gh-repo-create prompt-graph-tools --private
+gh-repo-create-cli prompt-graph-tools --private
 
 # Repo under an org
-gh-repo-create prompt-graph-tools --org my-org-name
+gh-repo-create-cli prompt-graph-tools --org my-org-name
 ```
 
 ## What the tool does
